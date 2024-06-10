@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.runtime:runtime-saveable-android:1.6.7@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/0437fd56449aa013ed2192050610d21c/transformed/runtime-saveable-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/0437fd56449aa013ed2192050610d21c/transformed/runtime-saveable-release/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/0437fd56449aa013ed2192050610d21c/transformed/runtime-saveable-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-saveable-android/1.6.7/e36ff9886898fcb4c455c2e9901391f49c6574b5/runtime-saveable-android-1.6.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

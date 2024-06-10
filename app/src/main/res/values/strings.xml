@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="about_text">Acerca de</string>
+
+    <string name="about_activity_name">Perfil</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_correo">Correo</string>
+    <string name="text_sitio_web">Sitio Web</string>
+    <string name="text_phone">Contacto</string>
+    <string name="text_location">Ubicación</string>
+    <string name="text_show_location">Mostrar mapa</string>
+    <string name="text_habilitar_ubicacion">Habilitar ubicación</string>
+    <string name="mm_modificar_info">Editar información</string>
+    <string name="txt_lat">Latitud</string>
+    <string name="txt_lon">Longitud</string>
+    <string name="k_name">k_name</string>
+    <string name="k_email">k_email</string>
+    <string name="k_web">k_web</string>
+    <string name="k_phone">k_phone</string>
+    <string name="k_lat">k_lat</string>
+    <string name="k_lon">k_lon</string>
+    <string name="img_to_editactivity">img_to_editActivity</string>
+    <string name="img_to_mainactivity">img_to_mainActivity</string>
+    <string name="image_uri">image_uri</string>
+    <string name="compatible_app_not_found_text">No se encontró aplicación compatible</string>
+    <string name="delete_profile_info">Eliminar datos de los desarrolladores</string>
+    <string name="txt_config">Configuración</string>
+    <string name="profile_picture_path">profilePicture/</string>
+
+</resources>

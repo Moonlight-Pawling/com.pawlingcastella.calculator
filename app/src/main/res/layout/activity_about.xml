@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/common_padding"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/radio_size_img"
+            app:cardElevation="@dimen/card_elevation"
+            android:layout_margin="@dimen/common_padding"
+            >
+            <ImageView
+                android:id="@+id/main_profile_picture"
+                android:layout_width="@dimen/size_image"
+                android:layout_height="@dimen/size_image"
+                tools:src="@drawable/img_avatar"
+                android:scaleType="centerCrop"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_nombre"
+            android:layout_marginTop="@dimen/common_margin"
+            />
+        <TextView
+            android:id="@+id/profile_tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_md"
+            tools:text="Nombre"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_correo"
+            android:layout_marginTop="@dimen/common_margin"
+            />
+        <TextView
+            android:id="@+id/profile_tv_correo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_md"
+            tools:text="correo@mail.com"
+            android:linksClickable="false"
+            android:autoLink="email"
+            android:textColorLink="@color/black"
+            android:textStyle="italic|bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_sitio_web"
+            android:layout_marginTop="@dimen/common_margin"
+            />
+        <TextView
+            android:id="@+id/profile_tv_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_md"
+            tools:text="www.sitioweb.org"
+            android:linksClickable="false"
+            android:textColorLink="#00796B"
+            android:autoLink="web"
+            android:textStyle="italic|bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_phone"
+            android:layout_marginTop="@dimen/common_margin"
+            />
+        <TextView
+            android:id="@+id/profile_tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_md"
+            tools:text="+52 22 90 90 90 90"
+            android:linksClickable="false"
+            android:autoLink="phone"
+            android:textColorLink="#009688"
+            android:textStyle="italic|bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_location"
+            android:layout_marginTop="@dimen/common_margin"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/profile_mostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_show_location"
+            android:layout_marginTop="@dimen/common_margin"
+            android:textSize="@dimen/text_size_md"
+            android:clickable="true"
+            android:drawableEnd="@drawable/icon_map"
+            android:drawablePadding="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/profileAjustes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_habilitar_ubicacion"
+            android:layout_marginTop="@dimen/common_margin"
+            android:textColor="#807575"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_md"
+            android:drawableStart="@drawable/icon_settings"
+            />
+    </LinearLayout>
+
+</ScrollView>
